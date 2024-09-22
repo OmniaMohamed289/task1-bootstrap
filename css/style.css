@@ -1,0 +1,188 @@
+#home{
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+.overlay{
+    background-color: rgba(20, 20, 20, 0.669);
+    /* background-color: red; */
+    top: 0;  
+    left: 0;
+    min-height: 100vh;
+
+  
+}
+#caption{
+    min-height: 100vh;
+    color:#fff;
+}
+.about{
+    padding-top: 100px;
+}
+#ui{
+    color: rgb(181, 173, 173)
+    
+
+}
+.about .cap .parag{
+    color: rgb(151, 148, 148);
+    padding-left: 100px;
+    
+}
+.skills{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.skills .item{
+    padding-top: 20px;
+}
+
+.skills-progress{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    position: relative;
+}
+.skills-progress h6{
+    font-size: 11px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    margin: 1px;
+    display: flex;
+    justify-content: flex-start;
+}
+#value{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.skills-progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    color: #fff;
+}
+#btncv:hover{
+    background-color:white ;
+    color: black;
+    
+}
+#btncontact:hover{
+    background-color:rgb(27, 25, 25) ;
+    color: rgb(249, 245, 245);
+
+}
+.Services{
+    padding-top: 60px;
+    background-color: #e9e9e9;
+}
+.special-heading{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-weight: 800;
+    font-size: 45px;
+    position: relative;
+}
+.special-heading::after{
+    position: absolute;
+    content: '';
+    padding-top: 30px;
+    border-bottom:1px #1c1c1c;
+}
+.Services .i{
+    display: flex;
+    justify-content: center;
+}
+.Services .icon{
+    border-radius:50% !important ;
+    color: #000000;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-color:#e9e5e5 ;
+     transform: 0.3s;
+}
+.Services .serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10%;
+}
+.Services .serv p{
+    color: #747171;
+    font-weight: 400;
+}
+.Services .serv:hover .icon{
+    background-color:#000000 ;
+    color: #f7f7f7;
+}
+.Portfolio ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+.Portfolio ul li {
+    margin: 0px 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.Portfolio img{
+ width: 380px;
+ height: 330px;
+}
+.Testimonials{
+    padding-top: 30px;
+    background-color: #f7f7f7;
+}
+.Testimonials img{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Envato{
+    color: #747171;
+}
+.team{
+    background-color: #f7f7f7;
+    margin-top: -70px;
+}
+.card-body{
+    background-color:#5b5b5b;
+    color: #e9e9e9;
+
+}
+.Contact .icon{
+    border-radius:50% !important ;
+    color: #000000;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-color:#e9e5e5 ;
+     transform: 0.3s;
+
+}
+.b-gray{
+    background-color: #f7f7f7;
+    border: #f7f7f7;
+}
+.Contact button:hover{
+    color: #bc2929 !important;
+    background-color:white !important;
+    
+}
